@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const moment = require("moment");
 const fs = require("fs");
 const client = new Discord.Client();
-const prefix = "-"
+const prefix = "99"
 
 
 
