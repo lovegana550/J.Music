@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "!" ; /// البرفكس
+var prefix = "99" ; /// البرفكس
 const moment = require('moment');
 
 /// This Version is Unser Maintinance. !
@@ -280,7 +280,7 @@ message.channel.send({embed:embed});
 
 /// !say | !embed 
 
-var prefix = "!";
+var prefix = "99";
 
 client.on('message', message => {
   if (message.author.bot) return;
