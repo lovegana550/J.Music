@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const moment = require("moment");
 const fs = require("fs");
 const client = new Discord.Client();
-const prefix = "-"
+const prefix = "99"
 const tpoints = {};
 const vpoints = {};
 
@@ -1115,7 +1115,7 @@ var prefix = "-";
 
                 }
 
-    if(message.content === prefix + "umc") {
+    if(message.content === prefix 99 "umc") {
 
                         if(!message.channel.guild) return message.reply('** This command only for servers**');
 
